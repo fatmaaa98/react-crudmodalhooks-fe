@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { fetchArticles } from './../../Services/ArticleService';
+
 import ArticleList from './ArticleList';
+import { fetchArticles } from '../../Services/ArticleService';
 
 
 const ArticleApp = () => {
